@@ -1,0 +1,20 @@
+include("/usr/share/cmake/Modules/GoogleTestAddTests.cmake")
+gtest_discover_tests_impl(
+  TEST_TARGET [==[TestChapter4]==]
+  TEST_EXECUTABLE [==[/home/james/C++Exercises/CIA/ch4/build/TestChapter4]==]
+  TEST_EXECUTOR [==[]==]
+  TEST_WORKING_DIR [==[/home/james/C++Exercises/CIA/ch4/build]==]
+  TEST_EXTRA_ARGS [==[]==]
+  TEST_PROPERTIES [==[]==]
+  TEST_PREFIX [==[]==]
+  TEST_SUFFIX [==[]==]
+  TEST_FILTER [==[]==]
+  NO_PRETTY_TYPES [==[FALSE]==]
+  NO_PRETTY_VALUES [==[FALSE]==]
+  TEST_LIST [==[TestChapter4_TESTS]==]
+  CTEST_FILE [==[/home/james/C++Exercises/CIA/ch4/build/TestChapter4_e3b0c442_tests.cmake]==]
+  TEST_DISCOVERY_TIMEOUT [==[5]==]
+  TEST_DISCOVERY_EXTRA_ARGS [==[]==]
+  TEST_XML_OUTPUT_DIR [==[]==]
+  TEST_JSON_OUTPUT_DIR [==[/home/james/C++Exercises/CIA/ch4/build]==]
+)

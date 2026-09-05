@@ -1,0 +1,38 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TryPop",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "CorrectFalse",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch4\/test.cpp",
+          "line": 41
+        },
+        {
+          "name": "CorrectNull",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch4\/test.cpp",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "name": "MultiThreaded",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "OnePOneC",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch4\/test.cpp",
+          "line": 55
+        },
+        {
+          "name": "OnePManyC",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch4\/test.cpp",
+          "line": 87
+        }
+      ]
+    }
+  ]
+}

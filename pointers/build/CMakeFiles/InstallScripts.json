@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/james/C++Exercises/pointers/build/cmake_install.cmake",
+		"/home/james/C++Exercises/pointers/build/_deps/googletest-build/cmake_install.cmake",
+		"/home/james/C++Exercises/pointers/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/home/james/C++Exercises/pointers/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,33 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Interface",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "isLockable",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch3\/testMutex.cpp",
+          "line": 8
+        },
+        {
+          "name": "worksWithUniqueLock",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch3\/testMutex.cpp",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "name": "Logic",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "atomicCounter",
+          "file": "\/home\/james\/C++Exercises\/CIA\/ch3\/testMutex.cpp",
+          "line": 39
+        }
+      ]
+    }
+  ]
+}

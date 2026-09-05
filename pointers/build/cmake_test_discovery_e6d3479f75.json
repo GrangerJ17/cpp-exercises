@@ -1,0 +1,87 @@
+{
+  "tests": 15,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "UniquePtrTest",
+      "tests": 15,
+      "testsuite": [
+        {
+          "name": "DefaultIsEmpty",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 36
+        },
+        {
+          "name": "TakesOwnership",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 41
+        },
+        {
+          "name": "DestroyingEmptyIsSafe",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 50
+        },
+        {
+          "name": "ReleaseYieldsPointerAndClears",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 57
+        },
+        {
+          "name": "ResetDeletesOld",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 66
+        },
+        {
+          "name": "ResetToNullFreesOld",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 74
+        },
+        {
+          "name": "DefaultResetAllocatesNothing",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 82
+        },
+        {
+          "name": "ResetOnEmptyIsSafe",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 89
+        },
+        {
+          "name": "MoveConstructTransfers",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 98
+        },
+        {
+          "name": "MoveAssignTransfersAndFreesTarget",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 107
+        },
+        {
+          "name": "SelfMoveAssignDoesNotDestroy",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 118
+        },
+        {
+          "name": "MoveAssignFromEmpty",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 126
+        },
+        {
+          "name": "SwapExchangesOwnership",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 136
+        },
+        {
+          "name": "MakeUniqueForwardsArgs",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 152
+        },
+        {
+          "name": "MakeUniqueMovesRvalue",
+          "file": "\/home\/james\/C++Exercises\/pointers\/test_smartpointers.cpp",
+          "line": 159
+        }
+      ]
+    }
+  ]
+}

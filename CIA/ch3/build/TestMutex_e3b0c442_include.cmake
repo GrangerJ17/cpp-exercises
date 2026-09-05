@@ -1,0 +1,5 @@
+if(EXISTS "/home/james/C++Exercises/CIA/ch3/build/TestMutex_e3b0c442_tests.cmake")
+  include("/home/james/C++Exercises/CIA/ch3/build/TestMutex_e3b0c442_tests.cmake")
+else()
+  add_test(TestMutex_NOT_BUILT TestMutex_NOT_BUILT)
+endif()

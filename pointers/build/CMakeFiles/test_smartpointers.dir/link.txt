@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/test_smartpointers.dir/link.d CMakeFiles/test_smartpointers.dir/test_smartpointers.cpp.o -o test_smartpointers  lib/libgtest_main.a lib/libgtest.a

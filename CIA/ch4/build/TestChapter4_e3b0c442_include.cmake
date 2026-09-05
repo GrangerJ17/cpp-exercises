@@ -1,0 +1,5 @@
+if(EXISTS "/home/james/C++Exercises/CIA/ch4/build/TestChapter4_e3b0c442_tests.cmake")
+  include("/home/james/C++Exercises/CIA/ch4/build/TestChapter4_e3b0c442_tests.cmake")
+else()
+  add_test(TestChapter4_NOT_BUILT TestChapter4_NOT_BUILT)
+endif()

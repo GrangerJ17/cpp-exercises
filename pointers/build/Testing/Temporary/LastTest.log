@@ -1,0 +1,408 @@
+Start testing: Sep 05 12:31 AEST
+----------------------------------------------------------
+1/15 Testing: UniquePtrTest.DefaultIsEmpty
+1/15 Test: UniquePtrTest.DefaultIsEmpty
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.DefaultIsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.DefaultIsEmpty" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.DefaultIsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.DefaultIsEmpty
+[       OK ] UniquePtrTest.DefaultIsEmpty (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.DefaultIsEmpty" end time: Sep 05 12:31 AEST
+"UniquePtrTest.DefaultIsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/15 Testing: UniquePtrTest.TakesOwnership
+2/15 Test: UniquePtrTest.TakesOwnership
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.TakesOwnership" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.TakesOwnership" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.TakesOwnership
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.TakesOwnership
+[       OK ] UniquePtrTest.TakesOwnership (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.TakesOwnership" end time: Sep 05 12:31 AEST
+"UniquePtrTest.TakesOwnership" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/15 Testing: UniquePtrTest.DestroyingEmptyIsSafe
+3/15 Test: UniquePtrTest.DestroyingEmptyIsSafe
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.DestroyingEmptyIsSafe" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.DestroyingEmptyIsSafe" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.DestroyingEmptyIsSafe
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.DestroyingEmptyIsSafe
+[       OK ] UniquePtrTest.DestroyingEmptyIsSafe (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.DestroyingEmptyIsSafe" end time: Sep 05 12:31 AEST
+"UniquePtrTest.DestroyingEmptyIsSafe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/15 Testing: UniquePtrTest.ReleaseYieldsPointerAndClears
+4/15 Test: UniquePtrTest.ReleaseYieldsPointerAndClears
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.ReleaseYieldsPointerAndClears" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.ReleaseYieldsPointerAndClears" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.ReleaseYieldsPointerAndClears
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.ReleaseYieldsPointerAndClears
+[       OK ] UniquePtrTest.ReleaseYieldsPointerAndClears (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.ReleaseYieldsPointerAndClears" end time: Sep 05 12:31 AEST
+"UniquePtrTest.ReleaseYieldsPointerAndClears" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/15 Testing: UniquePtrTest.ResetDeletesOld
+5/15 Test: UniquePtrTest.ResetDeletesOld
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.ResetDeletesOld" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.ResetDeletesOld" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.ResetDeletesOld
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.ResetDeletesOld
+[       OK ] UniquePtrTest.ResetDeletesOld (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.ResetDeletesOld" end time: Sep 05 12:31 AEST
+"UniquePtrTest.ResetDeletesOld" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/15 Testing: UniquePtrTest.ResetToNullFreesOld
+6/15 Test: UniquePtrTest.ResetToNullFreesOld
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.ResetToNullFreesOld" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.ResetToNullFreesOld" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.ResetToNullFreesOld
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.ResetToNullFreesOld
+[       OK ] UniquePtrTest.ResetToNullFreesOld (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.ResetToNullFreesOld" end time: Sep 05 12:31 AEST
+"UniquePtrTest.ResetToNullFreesOld" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/15 Testing: UniquePtrTest.DefaultResetAllocatesNothing
+7/15 Test: UniquePtrTest.DefaultResetAllocatesNothing
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.DefaultResetAllocatesNothing" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.DefaultResetAllocatesNothing" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.DefaultResetAllocatesNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.DefaultResetAllocatesNothing
+[       OK ] UniquePtrTest.DefaultResetAllocatesNothing (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.DefaultResetAllocatesNothing" end time: Sep 05 12:31 AEST
+"UniquePtrTest.DefaultResetAllocatesNothing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/15 Testing: UniquePtrTest.ResetOnEmptyIsSafe
+8/15 Test: UniquePtrTest.ResetOnEmptyIsSafe
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.ResetOnEmptyIsSafe" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.ResetOnEmptyIsSafe" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.ResetOnEmptyIsSafe
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.ResetOnEmptyIsSafe
+[       OK ] UniquePtrTest.ResetOnEmptyIsSafe (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.ResetOnEmptyIsSafe" end time: Sep 05 12:31 AEST
+"UniquePtrTest.ResetOnEmptyIsSafe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/15 Testing: UniquePtrTest.MoveConstructTransfers
+9/15 Test: UniquePtrTest.MoveConstructTransfers
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.MoveConstructTransfers" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.MoveConstructTransfers" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.MoveConstructTransfers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.MoveConstructTransfers
+[       OK ] UniquePtrTest.MoveConstructTransfers (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.MoveConstructTransfers" end time: Sep 05 12:31 AEST
+"UniquePtrTest.MoveConstructTransfers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: UniquePtrTest.MoveAssignTransfersAndFreesTarget
+10/15 Test: UniquePtrTest.MoveAssignTransfersAndFreesTarget
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.MoveAssignTransfersAndFreesTarget" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.MoveAssignTransfersAndFreesTarget" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.MoveAssignTransfersAndFreesTarget
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.MoveAssignTransfersAndFreesTarget
+[       OK ] UniquePtrTest.MoveAssignTransfersAndFreesTarget (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.MoveAssignTransfersAndFreesTarget" end time: Sep 05 12:31 AEST
+"UniquePtrTest.MoveAssignTransfersAndFreesTarget" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/15 Testing: UniquePtrTest.SelfMoveAssignDoesNotDestroy
+11/15 Test: UniquePtrTest.SelfMoveAssignDoesNotDestroy
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.SelfMoveAssignDoesNotDestroy" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.SelfMoveAssignDoesNotDestroy" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.SelfMoveAssignDoesNotDestroy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.SelfMoveAssignDoesNotDestroy
+[       OK ] UniquePtrTest.SelfMoveAssignDoesNotDestroy (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.SelfMoveAssignDoesNotDestroy" end time: Sep 05 12:31 AEST
+"UniquePtrTest.SelfMoveAssignDoesNotDestroy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/15 Testing: UniquePtrTest.MoveAssignFromEmpty
+12/15 Test: UniquePtrTest.MoveAssignFromEmpty
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.MoveAssignFromEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.MoveAssignFromEmpty" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.MoveAssignFromEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.MoveAssignFromEmpty
+[       OK ] UniquePtrTest.MoveAssignFromEmpty (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.MoveAssignFromEmpty" end time: Sep 05 12:31 AEST
+"UniquePtrTest.MoveAssignFromEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/15 Testing: UniquePtrTest.SwapExchangesOwnership
+13/15 Test: UniquePtrTest.SwapExchangesOwnership
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.SwapExchangesOwnership" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.SwapExchangesOwnership" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.SwapExchangesOwnership
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.SwapExchangesOwnership
+[       OK ] UniquePtrTest.SwapExchangesOwnership (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.SwapExchangesOwnership" end time: Sep 05 12:31 AEST
+"UniquePtrTest.SwapExchangesOwnership" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/15 Testing: UniquePtrTest.MakeUniqueForwardsArgs
+14/15 Test: UniquePtrTest.MakeUniqueForwardsArgs
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.MakeUniqueForwardsArgs" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.MakeUniqueForwardsArgs" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.MakeUniqueForwardsArgs
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.MakeUniqueForwardsArgs
+[       OK ] UniquePtrTest.MakeUniqueForwardsArgs (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.MakeUniqueForwardsArgs" end time: Sep 05 12:31 AEST
+"UniquePtrTest.MakeUniqueForwardsArgs" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/15 Testing: UniquePtrTest.MakeUniqueMovesRvalue
+15/15 Test: UniquePtrTest.MakeUniqueMovesRvalue
+Command: "/home/james/C++Exercises/pointers/build/test_smartpointers" "--gtest_filter=UniquePtrTest.MakeUniqueMovesRvalue" "--gtest_also_run_disabled_tests"
+Directory: /home/james/C++Exercises/pointers/build
+"UniquePtrTest.MakeUniqueMovesRvalue" start time: Sep 05 12:31 AEST
+Output:
+----------------------------------------------------------
+Running main() from /home/james/C++Exercises/pointers/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UniquePtrTest.MakeUniqueMovesRvalue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UniquePtrTest
+[ RUN      ] UniquePtrTest.MakeUniqueMovesRvalue
+[       OK ] UniquePtrTest.MakeUniqueMovesRvalue (0 ms)
+[----------] 1 test from UniquePtrTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UniquePtrTest.MakeUniqueMovesRvalue" end time: Sep 05 12:31 AEST
+"UniquePtrTest.MakeUniqueMovesRvalue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 05 12:31 AEST

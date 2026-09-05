@@ -1,0 +1,16 @@
+UniquePtrTest.DefaultIsEmpty 1 0.0147603
+UniquePtrTest.TakesOwnership 1 0.0143882
+UniquePtrTest.DestroyingEmptyIsSafe 1 0.0142603
+UniquePtrTest.ReleaseYieldsPointerAndClears 1 0.0135981
+UniquePtrTest.ResetDeletesOld 1 0.0140172
+UniquePtrTest.ResetToNullFreesOld 1 0.01482
+UniquePtrTest.DefaultResetAllocatesNothing 1 0.0144478
+UniquePtrTest.ResetOnEmptyIsSafe 1 0.0146292
+UniquePtrTest.MoveConstructTransfers 1 0.0150943
+UniquePtrTest.MoveAssignTransfersAndFreesTarget 1 0.0145179
+UniquePtrTest.SelfMoveAssignDoesNotDestroy 1 0.0150144
+UniquePtrTest.MoveAssignFromEmpty 1 0.0142545
+UniquePtrTest.SwapExchangesOwnership 1 0.0144842
+UniquePtrTest.MakeUniqueForwardsArgs 1 0.0140276
+UniquePtrTest.MakeUniqueMovesRvalue 1 0.0146605
+---

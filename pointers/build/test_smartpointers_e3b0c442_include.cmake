@@ -1,0 +1,5 @@
+if(EXISTS "/home/james/C++Exercises/pointers/build/test_smartpointers_e3b0c442_tests.cmake")
+  include("/home/james/C++Exercises/pointers/build/test_smartpointers_e3b0c442_tests.cmake")
+else()
+  add_test(test_smartpointers_NOT_BUILT test_smartpointers_NOT_BUILT)
+endif()
