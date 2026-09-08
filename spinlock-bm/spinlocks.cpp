@@ -5,18 +5,10 @@
 
 void spinlock_TAS::lock()
 {
-    uint8_t expected_zero;
-    size_t curr_attempt = 0;
-    do
-    {
-        curr_attempt++;
 
-        if (curr_attempt != 1) 
-        {
-          __builtin_ia32_pause(); 
-        }
-        expected_zero = 0;
-    } while(!m_spin.compare_exchange_weak(expected_zero, 1, std::memory_order_acquire));
+    while(m_spin.load(std::memory_order_relaxed)) {
+      __builtin_ia32_pause();
+    }
 }
 
 void spinlock_TAS::unlock()
@@ -26,15 +18,16 @@ void spinlock_TAS::unlock()
 
 void spinlock_TTAS::lock()
 {
-    uint8_t expected_zero;
-    do
-    {
-        while(m_spin.load(std::memory_order_acquire)) {
-          __builtin_ia32_pause();
-        }
+  for (;;) {
+    if (!m_spin.exchange(true, std::memory_order_acquire)) {
+      return;
+    }
 
-        expected_zero = 0;
-    } while(!m_spin.compare_exchange_weak(expected_zero, 1));
+
+    while(m_spin.load(std::memory_order_relaxed)) {
+      __builtin_ia32_pause();
+    }
+  }
 }
 
 void spinlock_TTAS::unlock()
