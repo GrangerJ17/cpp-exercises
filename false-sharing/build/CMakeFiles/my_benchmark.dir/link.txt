@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/my_benchmark.dir/link.d "CMakeFiles/my_benchmark.dir/false-sharing-bm.cpp.o" -o my_benchmark  _deps/benchmark-build/src/libbenchmark.a _deps/benchmark-build/src/libbenchmark_main.a _deps/benchmark-build/src/libbenchmark.a -lrt
