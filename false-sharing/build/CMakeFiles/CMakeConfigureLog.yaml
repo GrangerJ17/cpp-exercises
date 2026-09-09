@@ -1,0 +1,2109 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/james/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.18.49-1-lts - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/james/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/james/.local/bin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/james/.local/bin/c++"
+      - "/usr/local/sbin/c++"
+      - "/usr/local/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/james/cpp-exercises/false-sharing/build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/james/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/james/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.2"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.2"
+      - "/home/james/.local/bin/gcc-ar-16.2"
+      - "/usr/local/sbin/gcc-ar-16.2"
+      - "/usr/local/bin/gcc-ar-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16.2"
+      - "/usr/bin/site_perl/gcc-ar-16.2"
+      - "/usr/bin/vendor_perl/gcc-ar-16.2"
+      - "/usr/bin/core_perl/gcc-ar-16.2"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/james/.local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar-16"
+      - "/usr/bin/site_perl/gcc-ar-16"
+      - "/usr/bin/vendor_perl/gcc-ar-16"
+      - "/usr/bin/core_perl/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/james/.local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/gcc-ar16"
+      - "/usr/bin/site_perl/gcc-ar16"
+      - "/usr/bin/vendor_perl/gcc-ar16"
+      - "/usr/bin/core_perl/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.2"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.2"
+      - "/home/james/.local/bin/gcc-ranlib-16.2"
+      - "/usr/local/sbin/gcc-ranlib-16.2"
+      - "/usr/local/bin/gcc-ranlib-16.2"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16.2"
+      - "/usr/bin/site_perl/gcc-ranlib-16.2"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16.2"
+      - "/usr/bin/core_perl/gcc-ranlib-16.2"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/james/.local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib-16"
+      - "/usr/bin/site_perl/gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/gcc-ranlib-16"
+      - "/usr/bin/core_perl/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/james/.local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/gcc-ranlib16"
+      - "/usr/bin/site_perl/gcc-ranlib16"
+      - "/usr/bin/vendor_perl/gcc-ranlib16"
+      - "/usr/bin/core_perl/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58e70/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_58e70.dir/build.make CMakeFiles/cmTC_58e70.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg'
+        Building CXX object CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.1 20260810 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_58e70.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc5a7UwB.s
+        GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/'
+         as -v --64 -o CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5a7UwB.s
+        GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_58e70
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e70.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,m2,objc,obj-c++,rust,cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.1 20260810 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58e70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58e70.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        collect2 version 16.2.1 20260810
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        GNU ld (GNU Binutils) 2.47
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58e70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58e70.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_58e70
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/usr/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-pc-linux-gnu;/usr/include/c++/16/backward;/usr/lib/gcc/x86_64-pc-linux-gnu/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58e70/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_58e70.dir/build.make CMakeFiles/cmTC_58e70.dir/build]
+        ignore line: [make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-08gSQg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.1 20260810 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_58e70.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc5a7UwB.s]
+        ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4e9ac8b201f4ca740be09d0c7a39f82f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc5a7UwB.s]
+        ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_58e70]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e70.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../gcc/configure --enable-languages=ada c c++ d fortran go lto m2 objc obj-c++ rust cobol --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://gitlab.archlinux.org/archlinux/packaging/packages/gcc/-/issues --with-build-config=bootstrap-lto --with-gcc-major-version-only --with-linker-hash-style=gnu --with-system-zlib --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-fixincludes --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.1 20260810 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58e70' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58e70.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccPLZ9PI.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_58e70] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [collect2 version 16.2.1 20260810]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPLZ9PI.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_58e70 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_58e70.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/16;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.47
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindGit.cmake:111 (find_program)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1889 (find_package)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2160 (cmake_language)"
+      - "/usr/share/cmake/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
+      - "CMakeLists.txt:20 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/james/.local/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/CMakeLists.txt:80 (find_program)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:90 (should_enable_assembly_tests)"
+    mode: "program"
+    variable: "LLVM_FILECHECK_EXE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FileCheck"
+    candidate_directories:
+      - "/home/james/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/james/.local/bin/FileCheck"
+      - "/usr/local/sbin/FileCheck"
+      - "/usr/local/bin/FileCheck"
+      - "/usr/bin/FileCheck"
+      - "/var/lib/flatpak/exports/bin/FileCheck"
+      - "/usr/bin/site_perl/FileCheck"
+      - "/usr/bin/vendor_perl/FileCheck"
+      - "/usr/bin/core_perl/FileCheck"
+      - "/usr/local/bin/FileCheck"
+      - "/usr/local/sbin/FileCheck"
+      - "/usr/local/FileCheck"
+      - "/usr/bin/FileCheck"
+      - "/usr/sbin/FileCheck"
+      - "/usr/FileCheck"
+      - "/bin/FileCheck"
+      - "/sbin/FileCheck"
+      - "/usr/X11R6/bin/FileCheck"
+      - "/usr/X11R6/sbin/FileCheck"
+      - "/usr/X11R6/FileCheck"
+      - "/usr/pkg/bin/FileCheck"
+      - "/usr/pkg/sbin/FileCheck"
+      - "/usr/pkg/FileCheck"
+      - "/opt/bin/FileCheck"
+      - "/opt/sbin/FileCheck"
+      - "/opt/FileCheck"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/james/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:142 (try_compile)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:135 (check_library_exists)"
+    checks:
+      - "Looking for shm_open in rt"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_LIB_RT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed7e4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ed7e4.dir/build.make CMakeFiles/cmTC_ed7e4.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO'
+        Building CXX object CMakeFiles/cmTC_ed7e4.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=shm_open  -std=c++17 -o CMakeFiles/cmTC_ed7e4.dir/CheckFunctionExists.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_ed7e4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed7e4.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ed7e4.dir/CheckFunctionExists.cxx.o -o cmTC_ed7e4  -lrt
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-YJICAO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:193 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c723f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_c723f.dir/build.make CMakeFiles/cmTC_c723f.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL'
+        Building CXX object CMakeFiles/cmTC_c723f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++17   -Wall -o CMakeFiles/cmTC_c723f.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL/src.cxx
+        Linking CXX executable cmTC_c723f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c723f.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall CMakeFiles/cmTC_c723f.dir/src.cxx.o -o cmTC_c723f
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-EVj0tL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:194 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a302/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0a302.dir/build.make CMakeFiles/cmTC_0a302.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp'
+        Building CXX object CMakeFiles/cmTC_0a302.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++17   -Wextra -o CMakeFiles/cmTC_0a302.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp/src.cxx
+        Linking CXX executable cmTC_0a302
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a302.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_0a302.dir/src.cxx.o -o cmTC_0a302
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bUL2Hp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:195 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7c97d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7c97d.dir/build.make CMakeFiles/cmTC_7c97d.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv'
+        Building CXX object CMakeFiles/cmTC_7c97d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++17   -Wshadow -o CMakeFiles/cmTC_7c97d.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv/src.cxx
+        Linking CXX executable cmTC_7c97d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c97d.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_7c97d.dir/src.cxx.o -o cmTC_7c97d
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bFMaWv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:196 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf16b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bf16b.dir/build.make CMakeFiles/cmTC_bf16b.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL'
+        Building CXX object CMakeFiles/cmTC_bf16b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++17   -Wfloat-equal -o CMakeFiles/cmTC_bf16b.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL/src.cxx
+        Linking CXX executable cmTC_bf16b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf16b.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_bf16b.dir/src.cxx.o -o cmTC_bf16b
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-1WHgWL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:197 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3da58/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3da58.dir/build.make CMakeFiles/cmTC_3da58.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST'
+        Building CXX object CMakeFiles/cmTC_3da58.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++17   -Wold-style-cast -o CMakeFiles/cmTC_3da58.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST/src.cxx
+        Linking CXX executable cmTC_3da58
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3da58.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_3da58.dir/src.cxx.o -o cmTC_3da58
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-T7eaST'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:198 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_314a9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_314a9.dir/build.make CMakeFiles/cmTC_314a9.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen'
+        Building CXX object CMakeFiles/cmTC_314a9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17   -Wconversion -o CMakeFiles/cmTC_314a9.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen/src.cxx
+        Linking CXX executable cmTC_314a9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_314a9.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_314a9.dir/src.cxx.o -o cmTC_314a9
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-7IKxen'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:200 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6badb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6badb.dir/build.make CMakeFiles/cmTC_6badb.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H'
+        Building CXX object CMakeFiles/cmTC_6badb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror -std=c++17   -Werror -o CMakeFiles/cmTC_6badb.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H/src.cxx
+        Linking CXX executable cmTC_6badb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6badb.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror CMakeFiles/cmTC_6badb.dir/src.cxx.o -o cmTC_6badb
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-sPHM1H'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:204 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8adc4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8adc4.dir/build.make CMakeFiles/cmTC_8adc4.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del'
+        Building CXX object CMakeFiles/cmTC_8adc4.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override -std=c++17   -Wsuggest-override -o CMakeFiles/cmTC_8adc4.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del/src.cxx
+        Linking CXX executable cmTC_8adc4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8adc4.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override CMakeFiles/cmTC_8adc4.dir/src.cxx.o -o cmTC_8adc4
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-ib1Del'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:206 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3cf32/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_3cf32.dir/build.make CMakeFiles/cmTC_3cf32.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp'
+        Building CXX object CMakeFiles/cmTC_3cf32.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic -std=c++17   -pedantic -o CMakeFiles/cmTC_3cf32.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp/src.cxx
+        Linking CXX executable cmTC_3cf32
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cf32.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_3cf32.dir/src.cxx.o -o cmTC_3cf32
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-irKaCp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:207 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ca3aa/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ca3aa.dir/build.make CMakeFiles/cmTC_ca3aa.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1'
+        Building CXX object CMakeFiles/cmTC_ca3aa.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -std=c++17   -pedantic-errors -o CMakeFiles/cmTC_ca3aa.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1/src.cxx
+        Linking CXX executable cmTC_ca3aa
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca3aa.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_ca3aa.dir/src.cxx.o -o cmTC_ca3aa
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-oudQe1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:208 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_07bf8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_07bf8.dir/build.make CMakeFiles/cmTC_07bf8.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH'
+        Building CXX object CMakeFiles/cmTC_07bf8.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++17   -Wshorten-64-to-32 -o CMakeFiles/cmTC_07bf8.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH/src.cxx
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        make[1]: *** [CMakeFiles/cmTC_07bf8.dir/build.make:81: CMakeFiles/cmTC_07bf8.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-FdXlFH'
+        make: *** [Makefile:134: cmTC_07bf8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:209 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b49e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7b49e.dir/build.make CMakeFiles/cmTC_7b49e.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x'
+        Building CXX object CMakeFiles/cmTC_7b49e.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++17   -fstrict-aliasing -o CMakeFiles/cmTC_7b49e.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x/src.cxx
+        Linking CXX executable cmTC_7b49e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b49e.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_7b49e.dir/src.cxx.o -o cmTC_7b49e
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Wu113x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:212 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea39f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ea39f.dir/build.make CMakeFiles/cmTC_ea39f.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh'
+        Building CXX object CMakeFiles/cmTC_ea39f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17   -Wno-deprecated-declarations -o CMakeFiles/cmTC_ea39f.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh/src.cxx
+        Linking CXX executable cmTC_ea39f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea39f.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_ea39f.dir/src.cxx.o -o cmTC_ea39f
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-bypIfh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:222 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1afee/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1afee.dir/build.make CMakeFiles/cmTC_1afee.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha'
+        Building CXX object CMakeFiles/cmTC_1afee.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17   -Wno-deprecated -o CMakeFiles/cmTC_1afee.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha/src.cxx
+        Linking CXX executable cmTC_1afee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1afee.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_1afee.dir/src.cxx.o -o cmTC_1afee
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-hDgFha'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:230 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95f66/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_95f66.dir/build.make CMakeFiles/cmTC_95f66.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U'
+        Building CXX object CMakeFiles/cmTC_95f66.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++17   -Wstrict-aliasing -o CMakeFiles/cmTC_95f66.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U/src.cxx
+        Linking CXX executable cmTC_95f66
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f66.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_95f66.dir/src.cxx.o -o cmTC_95f66
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-6Nju9U'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:235 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7a8dc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7a8dc.dir/build.make CMakeFiles/cmTC_7a8dc.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf'
+        Building CXX object CMakeFiles/cmTC_7a8dc.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++17   -wd654 -o CMakeFiles/cmTC_7a8dc.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf/src.cxx
+        c++: error: unrecognized command-line option '-wd654'
+        c++: error: unrecognized command-line option '-wd654'
+        make[1]: *** [CMakeFiles/cmTC_7a8dc.dir/build.make:81: CMakeFiles/cmTC_7a8dc.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-8A3Ozf'
+        make: *** [Makefile:134: cmTC_7a8dc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:236 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5965f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_5965f.dir/build.make CMakeFiles/cmTC_5965f.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df'
+        Building CXX object CMakeFiles/cmTC_5965f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++17   -Wthread-safety -o CMakeFiles/cmTC_5965f.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        make[1]: *** [CMakeFiles/cmTC_5965f.dir/build.make:81: CMakeFiles/cmTC_5965f.dir/src.cxx.o] Error 1
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-SHl6Df'
+        make: *** [Makefile:134: cmTC_5965f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "build/_deps/benchmark-src/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:287 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_57646/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_57646.dir/build.make CMakeFiles/cmTC_57646.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c'
+        Building CXX object CMakeFiles/cmTC_57646.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++17   --coverage -o CMakeFiles/cmTC_57646.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c/src.cxx
+        Linking CXX executable cmTC_57646
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57646.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_57646.dir/src.cxx.o -o cmTC_57646
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-Zpgn6c'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:311 (cxx_feature_check)"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f92d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8f92d.dir/build.make CMakeFiles/cmTC_8f92d.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_8f92d.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_8f92d.dir/std_regex.cpp.o -c /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/std_regex.cpp
+        Linking CXX executable cmTC_8f92d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f92d.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_8f92d.dir/std_regex.cpp.o -o cmTC_8f92d
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:312 (cxx_feature_check)"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e50ee/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e50ee.dir/build.make CMakeFiles/cmTC_e50ee.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e50ee.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_e50ee.dir/gnu_posix_regex.cpp.o -c /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/gnu_posix_regex.cpp
+        /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        make[1]: *** [CMakeFiles/cmTC_e50ee.dir/build.make:81: CMakeFiles/cmTC_e50ee.dir/gnu_posix_regex.cpp.o] Error 1
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        make: *** [Makefile:134: cmTC_e50ee/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:313 (cxx_feature_check)"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e7a7d/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e7a7d.dir/build.make CMakeFiles/cmTC_e7a7d.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e7a7d.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_e7a7d.dir/posix_regex.cpp.o -c /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_e7a7d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7a7d.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_e7a7d.dir/posix_regex.cpp.o -o cmTC_e7a7d
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:322 (cxx_feature_check)"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1aade/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1aade.dir/build.make CMakeFiles/cmTC_1aade.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_1aade.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_1aade.dir/steady_clock.cpp.o -c /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_1aade
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aade.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_1aade.dir/steady_clock.cpp.o -o cmTC_1aade
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:325 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aed85/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_aed85.dir/build.make CMakeFiles/cmTC_aed85.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu'
+        Building CXX object CMakeFiles/cmTC_aed85.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_aed85.dir/src.cxx.o -c /home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu/src.cxx
+        Linking CXX executable cmTC_aed85
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed85.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_aed85.dir/src.cxx.o -o cmTC_aed85
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeScratch/TryCompile-L4bRVu'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "build/_deps/benchmark-src/cmake/CXXFeatureCheck.cmake:57 (try_run)"
+      - "build/_deps/benchmark-src/CMakeLists.txt:326 (cxx_feature_check)"
+    directories:
+      source: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+      binary: "/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/Modules;/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65f0c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_65f0c.dir/build.make CMakeFiles/cmTC_65f0c.dir/build
+        make[1]: Entering directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_65f0c.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_65f0c.dir/pthread_affinity.cpp.o -c /home/james/cpp-exercises/false-sharing/build/_deps/benchmark-src/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_65f0c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65f0c.dir/link.txt --verbose=1
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_65f0c.dir/pthread_affinity.cpp.o -o cmTC_65f0c
+        make[1]: Leaving directory '/home/james/cpp-exercises/false-sharing/build/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_PTHREAD_AFFINITY"
+      cached: true
+      stdout: |
+      exitCode: 0
+...

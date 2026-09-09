@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/james/cpp-exercises/false-sharing/build/cmake_install.cmake",
+		"/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-build/cmake_install.cmake",
+		"/home/james/cpp-exercises/false-sharing/build/_deps/benchmark-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
